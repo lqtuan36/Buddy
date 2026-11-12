@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --buddy-primary: #3978F6;
+    --buddy-ice: #EAF3FF;
+    --buddy-lavender: #EDE7FF;
+    --buddy-mint: #DDF5E8;
+    --buddy-yellow: #FFF0C9;
+    --buddy-peach: #FFE4D8;
+    --buddy-cloud: #F7F9FD;
+    --buddy-navy: #23324D;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F7F9FD;
+    color: #23324D;
+  }
+
+  h1, h2, h3, h4, .font-kids {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.font-kids {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-buddy-float {
+  animation: floatSlow 3.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-buddy-float {
+    animation: none;
+  }
+}
+

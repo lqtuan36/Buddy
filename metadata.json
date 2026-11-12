@@ -1,0 +1,6 @@
+{
+  "name": "Buddy – AI Personal Buddy",
+  "description": "Người bạn AI đồng hành cùng trẻ em Việt Nam trò chuyện, rèn luyện thói quen, thực hiện nhiệm vụ từng bước và nghe kể chuyện mỗi tối.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
